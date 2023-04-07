@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Add from "../images/addAvatar.png"
 import { Context } from "../context/Context"
 import { useContext } from 'react';
-import axios from 'axios';
+
 export default function ({ message }) {
 
 

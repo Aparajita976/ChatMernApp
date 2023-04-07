@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../style.css'
 import Add from '../images/addAvatar.png'
-import axios from 'axios'
+import axios from 'axios';
 const Register = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')

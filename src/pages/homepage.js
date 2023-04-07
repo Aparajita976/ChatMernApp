@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import Message from '../components/message'
 import Chats from '../components/chats'
-import 'react-icons/ai';
+import 'react-icons';
 import { Context } from '../context/Context';
 import { useContext } from 'react';
 import axios from 'axios';
